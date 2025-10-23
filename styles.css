@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.calculator{
+    color: hsl(202, 11%, 29%); /* Text color for calculator */
+    display: grid;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    max-inline-size: 22rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); /* Give the calculator some depth off the page */
+
+}
+
+.output{
+    font-size: 4rem;
+    text-align: end;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: hsl(255, 100%, 100%);
+    
+    padding-block-start: 2rem;
+    padding-block-end: 0.25rem;
+    padding-inline-end: 1.25rem;
+
+
+}
+
+.calculator-keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.6em;
+    background: hsl(255, 100%, 100%); /* Background behind the keys to white */
+    padding: 1em;
+}
+
+.calculator-key{
+    background: hsl(210, 25%, 95%);
+    border: none;
+    
+    font-size: 2rem;
+    font-size: 1.5rem;
+    inline-size: 60px;
+    block-size: 60px;
+    border-radius: 40px;
+
+}
+
+.operator{
+    background: hsl(208, 25%, 86%);
+
+}
+
+.enter-key{
+    grid-column: 4 / 5;
+    grid-row: 2 / span 4;
+    background: hsl(357, 100%, 72%);
+    height: auto;
+    
+}
+.calculator-key:active{
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
