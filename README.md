@@ -1,5 +1,6 @@
 # calculator-app
-A simple calculator app written in JavaScript. It features a backend that converts the input to reverse polish notation (postfix form).
+A simple calculator app written in JavaScript.<br><br>
+It features a backend that converts the input to reverse polish notation (postfix form).<br><br>
 <img width="591" height="766" alt="image" src="https://github.com/user-attachments/assets/3768753e-a977-4f7d-b807-e936470d88ce" />
 
 ## Key Features
